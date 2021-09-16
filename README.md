@@ -21,3 +21,5 @@
 - Two features were removed as all the values were the same in every row. 
 - Features with too many missing values were also dropped. 
 
+## Feature Engineering
+- Added new feature "active_time" which represents the time the pump has been active by the recorded date
