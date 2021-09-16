@@ -1,4 +1,4 @@
-﻿# pumpitup_ML_project
+﻿# Pump It Up - ML Project
 - Name: M.H. Lamahewage
 - Index No.: 170342N
 
