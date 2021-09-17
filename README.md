@@ -7,8 +7,10 @@
 
 - When through the train dataset and observed the features using various tools. 
 - The dataset was found to be imbalanced. Weighted F1-score was used for evaluation.
+
+
 | functional | non-functional | functional needs repair |
-| ---------- | -------------- | ----------------------- |
+| ------ | ---------- | ------------------ |
 | 32259 | 22824 | 4317 |
 
 - Features with missing values, null values, zeros and other inconsistencies were identified.
