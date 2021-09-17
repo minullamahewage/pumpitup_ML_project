@@ -10,7 +10,7 @@
 
 
 | functional | non-functional | functional needs repair |
-| ------ | ---------- | ------------------ |
+| :------: | :----------: | :------------------: |
 | 32259 | 22824 | 4317 |
 
 - Features with missing values, null values, zeros and other inconsistencies were identified.
@@ -54,3 +54,12 @@ One of each were chosen based on several factors and the remaining features were
 ## Model Selection
 - XGBoost and RandomForest were considered and RandomForest was used due to better results.
 - n_estimators=600, max_depth=40, min_samples_split=10
+
+
+## Submissions
+
+| Score  | Current Rank | # competitiors | Submission Date |
+| :---: | :---: | :----: | :-----: |
+| 0.8170 | 1603 | 12430 | Sept. 16, 2021 |
+
+![alt text](https://github.com/minullamahewage/pumpitup_ML_project/blob/main/submission_score.png "Submission Proof")
