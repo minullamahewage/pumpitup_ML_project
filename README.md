@@ -26,7 +26,7 @@
 - Replace other missing values such as unknown, None and 0 with mean for numerical features and mode for categorical features. 
 
 ### Features with high correlation
-These features were found to have high correlation.
+These features were found to have high correlation or were similar upon manual inspection.
 - extraction_type, extraction_type_group, extraction_type_class
 - payment, payment_type
 - water_quality, quality_group
