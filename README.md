@@ -68,4 +68,4 @@ One of each were chosen based on several factors and the remaining features were
 | :---: | :---: | :----: | :-----: |
 | **0.8170** | 1603 | 12430 | Sept. 16, 2021 |
 
-![alt text](https://github.com/minullamahewage/pumpitup_ML_project/blob/main/submission_score.png "Submission Proof")
+![alt text](https://github.com/minullamahewage/pumpitup_ML_project/blob/main/submission.png "Submission Proof")
