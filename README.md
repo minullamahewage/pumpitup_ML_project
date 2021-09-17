@@ -17,8 +17,8 @@
 | 32259 | 22824 | 4317 |
 
 - Features with missing values, null values, zeros and other inconsistencies were identified.
-- Features with high cardinality/similar features were identified.
-- Features with high correlation were identified. 
+- Features with high cardinality were identified.
+- Features with high correlation/similar features were identified. 
 
 ## Preprocessing
 ### Handling Missing Values
