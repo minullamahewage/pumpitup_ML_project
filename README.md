@@ -66,6 +66,6 @@ One of each were chosen based on several factors and the remaining features were
 
 | Score  | Current Rank | # competitiors | Submission Date |
 | :---: | :---: | :----: | :-----: |
-| **0.8170** | 1603 | 12430 | Sept. 16, 2021 |
+| **0.8170** | 1624 | 12453 | Sept. 16, 2021 |
 
 ![alt text](https://github.com/minullamahewage/pumpitup_ML_project/blob/main/submission.png "Submission Proof")
