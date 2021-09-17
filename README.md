@@ -2,9 +2,9 @@
  
  Github Repo Link: https://github.com/minullamahewage/pumpitup_ML_project
  
-- Driven Data Username: **moracse_170342n**
-- Name: **M.H. Lamahewage**
-- Index No.: **170342N**
+- Driven Data Username: `moracse_170342n`
+- Name: `M.H. Lamahewage`
+- Index No.: `170342N`
 
 ## EDA
 
@@ -54,7 +54,7 @@ One of each were chosen based on several factors and the remaining features were
 - Features with too many missing values were also dropped. 
 
 ## Feature Engineering
-- Added new feature "active_time" which represents the total time the pump has been active by the recorded date.
+- Added new feature `active_time` which represents the total time the pump has been active by the recorded date.
 
 ## Model Selection
 - **RandomForestClassifier**
