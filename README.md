@@ -1,11 +1,14 @@
 ﻿# Pump It Up - ML Project
+ 
+ Github Repo Link: https://github.com/minullamahewage/pumpitup_ML_project
+ 
 - Driven Data Username: moracse_170342n
 - Name: M.H. Lamahewage
 - Index No.: 170342N
 
 ## EDA
 
-- When through the train dataset and observed the features using various tools. 
+- Went through the train dataset and observed the features using various tools. 
 - The dataset was found to be imbalanced. Weighted F1-score was used for evaluation.
 
 
@@ -14,7 +17,7 @@
 | 32259 | 22824 | 4317 |
 
 - Features with missing values, null values, zeros and other inconsistencies were identified.
-- Features with high cardinality were identified.
+- Features with high cardinality/similar features were identified.
 - Features with high correlation were identified. 
 
 ## Preprocessing
@@ -35,10 +38,12 @@ One of each were chosen based on several factors and the remaining features were
 
 
 ### Ordinal Encoding
-- Categorical features which are ordered or had too many categories were encoded using the OrdinalEncoder
+- Categorical features which are ordered or had too many categories were encoded using the OrdinalEncoder.
+- Features: "funder","installer", "subvillage", "lga", "ward", "public_meeting", "permit", "management", "payment_type", "water_quality", "date_recorded".
 
 ### OneHot Encoding
 - Categorical features which aren't ordered and had a smaller number of categories were encoded using the OneHotEncoder
+- Features:  "basin", "scheme_management", "extraction_type_class", "management_group", "quantity", "source_type", "waterpoint_type".
 
 ### Label Encoding
 - The labels were encoded using the LabelEncoder
@@ -52,8 +57,9 @@ One of each were chosen based on several factors and the remaining features were
 - Added new feature "active_time" which represents the total time the pump has been active by the recorded date.
 
 ## Model Selection
+- RandomForestClassifier
 - XGBoost and RandomForest were considered and RandomForest was used due to better results.
-- n_estimators=600, max_depth=40, min_samples_split=10
+- parameters: n_estimators=600, max_depth=40, min_samples_split=10
 
 
 ## Submissions
